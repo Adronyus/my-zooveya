@@ -2,8 +2,7 @@ name: Finalize My Zooveya
 
 on:
   push:
-    paths:
-      - '.github/workflows/bootstrap.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write
